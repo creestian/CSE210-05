@@ -6,17 +6,17 @@ Cycle is a game where the players try to cut each other off using cycles that le
 ## Rules
 It's a two player game
 Cycle is played according to the following rules.
-
-Players can move up, down, left and right.
-Player one moves using the W, S, A and D keys.
-Player two moves using the I, K, J and L keys.
-Each player's trail grows as they move.
-Players try to maneuver so the opponent collides with their trail.
-If a player collides with their opponent's trail.
-A "Game Over" message is displayed in the middle of the screen.
-The cycles turn white.
-Players keep moving and turning but don't run into each other.
-
+```
+1. Players can move up, down, left and right.
+  a. Player one moves using the W, S, A and D keys.
+  b. Player two moves using the I, K, J and L keys.
+2. Each player's trail grows as they move.
+3. Players try to maneuver so the opponent collides with their trail.
+4. If a player collides with their opponent's trail.
+  a. A "game over" message is displayed in the middle of the screen.
+  b. The cycles turn white.
+  c. _Players keep moving and turning but don't run into each other.
+```
 ## Getting Started
 ---
 Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
